@@ -30,19 +30,19 @@ void swap_cr(const int& a, const int& b)
 
 int main()
 {
-	int x = 7;
-	int y = 9;
+	int x = 10;
+	int y = 11;
 	swap_r(x, y);
-	swap_r(7, 9);
-	const int cx = 7;
-	const int cy = 9;
+	swap_r(10, 11);
+	const int cx = 10;
+	const int cy =11;
 	//swap_cr (cx, cy);
-	//swap_cr (7, 9); 
-	double dx = 7.7;
-	double dy = 9.9;
+	//swap_cr (10,11); 
+	double dx = 10.0;
+	double dy = 11.11;
 	//swap_cr (dx, dy);
 	
-  //swap_cr (7.7, 9.9);
+  //swap_cr (10.0, 11.11);
 	cout << "x= " << x << endl
 		<< "y= " << y << endl
 		<< "cx= " << cx << endl
