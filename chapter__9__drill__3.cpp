@@ -54,7 +54,7 @@ int main() {
     tommorow.add_day(1);
     cout << today << endl;
     cout << tommorow << endl;
-    //Date t_1{2004, 13, -5}; "invalid date!"
+    //Date t_1{2004, 13, -8}; "invalid date!"
     /*
     Date t_2{2021, 12, 31};
     t_2.add_day(32);
