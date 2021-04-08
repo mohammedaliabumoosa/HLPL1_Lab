@@ -53,7 +53,7 @@ void input_from_file(vector<Point>& ps){
 int main(){
     vector<Point>original_points;
     vector<Point>processed_points;
-    cout << "Please enter 7 points in format (x,y)" << endl;
+    cout << "enter 7 points in format (x,y)" << endl;
     Point p;
     for (;original_points.size() < 3;)
     {
@@ -63,7 +63,7 @@ int main(){
         }
         else 
         {
-            cout << "You sure you typed the points in format (x,y)?" << endl;
+            cout << "did you type in the specific formart (x,y)?" << endl;
             cin.clear();
         }
     }
