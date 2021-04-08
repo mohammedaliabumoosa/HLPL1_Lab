@@ -83,7 +83,7 @@ int main() {
     tommorow.add_day(1);
     cout << today << endl;
     cout << tommorow << endl;
-    //Date t_1{2004, 13, -8}; wouldn't pass the compiler 
+    //Date t_1{2004, 13, -5}; wouldn't pass the compiler 
     /*
     Date t_2{2021, Month::dec, 31};
     t_2.add_day(1);
