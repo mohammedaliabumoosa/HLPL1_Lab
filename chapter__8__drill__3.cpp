@@ -29,10 +29,10 @@ namespace Z
 
 int main()
 {
-	X::var = 7;
+	X::var = 10;
 	X::print();
 	using namespace Y;
-	var = 9;
+	var = 11;
 	print();
 	{
 		using Z::var;
